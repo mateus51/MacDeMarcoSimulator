@@ -16,7 +16,7 @@ import java.util.Random;
 public class StartingPoint extends Applet implements Runnable, KeyListener, MouseMotionListener, MouseListener {
 
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 1L;
 	private Image image;
@@ -52,7 +52,6 @@ public class StartingPoint extends Applet implements Runnable, KeyListener, Mous
 		addMouseListener(this);
 		addMouseMotionListener(this);
 
-		// Gets the url to s
 		try {
 			url = getDocumentBase();
 		} catch (Exception e) {
@@ -60,7 +59,7 @@ public class StartingPoint extends Applet implements Runnable, KeyListener, Mous
 		}
 
 		// Images
-		background = getImage(url, "Images/background3.png");
+		background = getImage(url, "Images/background.png");
 		viceroyIcon = getImage(url, "Images/viceroy.png");
 		cigaretteIcon = getImage(url, "Images/cigarette.png");
 		capIcon = getImage(url, "Images/cap.png");
@@ -226,7 +225,7 @@ public class StartingPoint extends Applet implements Runnable, KeyListener, Mous
 	@Override
 	/**
 	 * For double buffering. Gets rid of the flickering problem on animations.
-	 * 
+	 *
 	 * @param g
 	 */
 	public void update(Graphics g) {
