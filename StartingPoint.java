@@ -59,7 +59,7 @@ public class StartingPoint extends Applet implements Runnable, KeyListener, Mous
 		}
 
 		// Images
-		background = getImage(url, "Images/background3.png");
+		background = getImage(url, "Images/background.png");
 		viceroyIcon = getImage(url, "Images/viceroy.png");
 		cigaretteIcon = getImage(url, "Images/cigarette.png");
 		capIcon = getImage(url, "Images/cap.png");
